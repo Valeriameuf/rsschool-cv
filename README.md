@@ -12,10 +12,10 @@ My name is Valeria Petrushevskaya. I am 31 years old. I am a beginner JavaScript
 
 ## My strengths:
 
-- Quick learner
-- Full immersion in the essence of the problems
-- Diligence
-- Team playing
+- Strong communication skills
+- Creativity
+- Ability to work under pressure
+- Willingness to learn
 
 ## Skills
 
@@ -44,6 +44,7 @@ National Technical University of Ukraine «Igor Sikorsky Kyiv Polytechnic Instit
 Faculty of Linguistics.(Department of Theory, Practice and Translation of the French Language)
 
 Education platform "Freelancer Life Style"
+
 -Front End Course(Html/Css/Js)
 
 -JavaScript Course
