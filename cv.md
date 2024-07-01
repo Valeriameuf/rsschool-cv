@@ -1,5 +1,3 @@
-[CV](https://Valeriameuf.github.io/rsschool-cv/cv)
-
 # Valeria Petrushevska
 
 Contact Info: +380663578772 | valerevapet@gmail.com | [Valeriameuf](https://github.com/Valeriameuf)
