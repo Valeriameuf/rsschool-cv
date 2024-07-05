@@ -204,21 +204,6 @@ ul {
 .skills-list-item span {
   color: #161d2a;
 }
-/* Logo */
-/* 
-.logo-container {
-  position: absolute;
-  bottom: 1.25rem;
-  right: 1.25rem;
-  width: 5rem;
-  height: auto;
-  z-index: 999;
-}
-
-.logo-container img {
-  width: 100%;
-  height: auto;
-} */
 /* Footer */
 .footer {
   background-color: var(--color-secondary-grey);
