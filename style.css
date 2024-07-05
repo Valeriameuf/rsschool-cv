@@ -207,7 +207,7 @@ ul {
 /* Footer */
 .footer {
   background-color: var(--color-secondary-grey);
-  padding: 2rem 0;
+  padding: 2rem 0.9375rem;
 }
 
 .footer__content {
