@@ -1,0 +1,94 @@
+@import url("reset.css");
+
+/* Fonts */
+@font-face {
+  font-family: "Arial";
+  src: url("./fonts/arialmt.woff2") format("woff2"),
+    url("./fonts/arialmt.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Georgia";
+  src: url("./fonts/georgia.woff2") format("woff2"),
+    url("./fonts/georgia.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Veriable */
+:root {
+  --color-top-section: rgb(205, 205, 205);
+  --color-primary-dark: #333333;
+  --color-btn-purple: #8a33fd;
+  --color-primary-light: #ffffff;
+  --color-cards-dark: #2a2f2f;
+  --color-cards-light: #7f7f7f;
+  --color-details-dark: #3c4242;
+  --color-product-light: #f6f6f6;
+  --color-cart: #bebcbd;
+}
+
+/* Base */
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  color: var(--color-top-section);
+  margin: 0;
+}
+.main {
+  overflow-x: clip;
+  flex: 1 1 auto;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+[class*="__container"] {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #333333;
+}
+.header__container--indent {
+  padding: 1.875rem 0.9375rem;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  gap: 35px;
+}
+.header__link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header__link:hover {
+  color: rgb(250, 250, 250);
+}
+
+.header__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(241, 205, 179);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.header__link:hover::after {
+  opacity: 1;
+}
