@@ -104,6 +104,9 @@ body {
   background-position: right center;
   margin-bottom: 5rem;
 }
+.hero-section__container {
+  padding: 0 15px;
+}
 .text-container h1 {
   max-width: 19.375rem;
   color: rgb(255, 255, 255);
@@ -135,11 +138,7 @@ body {
 .text-container button:hover {
   background-color: #e7966a;
 }
-/* .content-container {
-  display: flex;
-  gap: 2.8125rem;
-  min-height: 51.25rem;
-} */
+
 .content-container {
   display: flex;
   flex-direction: row;
@@ -165,4 +164,51 @@ body {
 .content-container .image-container img {
   max-width: 100%;
   height: auto;
+}
+
+/* Abot-Shelter-Section */
+.about-shelter-section {
+  background-color: #ffffff;
+  padding: 5rem 0.9375rem;
+}
+
+.about-shelter-section__container {
+  max-width: 62.5rem;
+  margin: 0 auto;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+.about-shelter-section__img {
+  flex: 1;
+}
+
+.about-shelter-section__img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-shelter-section__content {
+  flex: 1;
+}
+
+.about-shelter-section__content h2 {
+  max-width: 370px;
+  font-family: "Georgia";
+  font-size: 35px;
+  color: rgb(84, 84, 84);
+  margin-bottom: 25px;
+}
+
+.about-shelter-section__content p {
+  color: rgb(76, 76, 76);
+  line-height: 1.6;
+}
+.about-shelter-section__content p:not(:last-child) {
+  margin-bottom: 1.5625rem;
 }
