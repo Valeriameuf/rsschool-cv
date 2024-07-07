@@ -248,9 +248,7 @@ body {
 }
 
 .pet-card__image {
-  border: 2px dashed #999;
   padding: 10px;
-  overflow: hidden;
 }
 
 .pet-card__image img {
@@ -325,12 +323,52 @@ body {
   left: 10px;
 }
 
-/* Стили для кнопки справа */
 .slider-control--right {
   right: 10px;
 }
 
-/* Иконки стрелочек */
 .slider-control__icon {
   font-size: 24px;
+}
+
+/* Help Section */
+
+.help-section {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.help-section__container {
+  padding: 0 15px;
+}
+.help-section__aria {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.help-section__primary,
+.help-section__secondary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+
+.help-section__item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.help-section__text {
+  font-family: "Georgia";
+  font-size: 20px;
+  line-height: 1.15;
+  color: #545454;
+  margin-top: 30px;
 }
