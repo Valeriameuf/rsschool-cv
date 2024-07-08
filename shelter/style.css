@@ -372,3 +372,66 @@ body {
   color: #545454;
   margin-top: 30px;
 }
+
+/* Donation Section */
+
+.donation-section {
+  margin-bottom: 3.75rem;
+}
+
+.donation-section__container {
+  padding: 0 0.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-image {
+  flex: 0 0 auto; /* не увеличивать размер по горизонтали */
+  margin-right: 20px; /* отступ между изображением и текстом */
+}
+
+.donation-info {
+  flex: 1; /* занимает все доступное пространство по ширине */
+  text-align: left;
+  max-width: 23.75rem;
+}
+
+.donation-info h2 {
+  font-family: "Georgia";
+  font-size: 2.1875rem;
+  color: #545454;
+  max-width: 18.75rem;
+  margin-bottom: 10px;
+}
+.donation-info p {
+  color: #b2b2b2;
+}
+.card-details {
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 205, 179);
+  padding: 10px 15px;
+  border-radius: 5px;
+  max-width: 350px;
+  margin-top: 10px;
+  margin-bottom: 1.25rem;
+}
+.card-details span {
+  font-family: "Georgia";
+  font-size: 1.25rem;
+  color: #545454;
+}
+.card-details img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.card-details span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.additional-info {
+  margin-top: 20px;
+}
