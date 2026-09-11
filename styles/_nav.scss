@@ -1,0 +1,32 @@
+@use 'variables' as *;
+
+.nav {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $color-dodger-blue;
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: $gap-md;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__link {
+        color: $color-midnight-blue;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-sm) {
+    .nav__list {
+        gap: $gap-sm;
+        font-size: 0.9rem;
+    }
+}
