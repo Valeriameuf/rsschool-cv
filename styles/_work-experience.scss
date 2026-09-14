@@ -1,0 +1,39 @@
+@use 'variables' as *;
+
+.work-experience {
+    margin-bottom: $gap-lg * 2;
+
+    &__item {
+        margin-top: $gap-lg;
+
+        &:first-of-type {
+            margin-top: $gap-md;
+        }
+    }
+
+    &__role {
+        margin: 0 0 4px;
+        font-size: 1.2rem;
+    }
+
+    &__company {
+        font-weight: 400;
+        font-style: italic;
+        color: $color-midnight-blue;
+    }
+
+    &__period {
+        margin: 0 0 $gap-sm;
+        font-style: italic;
+        opacity: 0.8;
+    }
+
+    &__list {
+        margin: 0;
+        padding-left: 1.2em;
+    }
+
+    &__list-item {
+        margin-bottom: 4px;
+    }
+}

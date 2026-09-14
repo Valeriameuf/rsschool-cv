@@ -1,0 +1,37 @@
+@use 'variables' as *;
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap-lg;
+}
+
+.main-content {
+    order: 2;
+    flex: 2 1 600px;
+    min-width: 0;
+    padding: $gap-lg 0;
+}
+
+.sidebar {
+    order: 1;
+    flex: 1 1 260px;
+    min-width: 0;
+    padding: $gap-lg 0;
+
+    > div {
+        margin-bottom: $gap-lg;
+    }
+}
+
+@media (max-width: $breakpoint-sm) {
+    .wrapper {
+        gap: $gap-md;
+    }
+
+    .main-content,
+    .sidebar {
+        flex-basis: 100%;
+        padding: $gap-md 0;
+    }
+}
