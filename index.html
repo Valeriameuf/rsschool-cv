@@ -3,9 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Valeria Petrushevska - CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="about-me">
+            <div class="about-me__text">
+                <p class="about-me__title">Front-End Developer</p>
+                <h1 class="about-me__name">Petrushevska Valeria</h1>
+                <p class="about-me__paragraph">My name is Valeria Petrushevskaya. I am 33 years old. I am a passionate front-end developer with experience in creating responsive and user-friendly websites.</p>
+            </div>
+
+            <div class="about-me__photo-wrap">
+                <img class="about-me__photo" src="images/me.jpg" alt="Valeria Petrushevska">
+            </div>
+        </div>
+
+        <div class="header__wave" aria-hidden="true">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,40 C240,100 480,0 720,40 C960,80 1200,0 1440,40 L1440,100 L0,100 Z"></path>
+            </svg>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#work-experience">Work Experience</a></li>
+            <li class="nav__item"><a class="nav__link" href="#code-example">Code Example</a></li>
+            <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+            <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+            <li class="nav__item"><a class="nav__link" href="#strengths">Soft Skills</a></li>
+            <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <main class="main-content">
+            <div class="work-experience" id="work-experience">
+                <h2 class="work-experience__title">Work Experience</h2>
+
+                <div class="work-experience__item">
+                    <h3 class="work-experience__role">Front-End Developer <span class="work-experience__company">&mdash; Freelance</span></h3>
+                    <p class="work-experience__period">September 2019 - up to now | Country</p>
+                    <ul class="work-experience__list">
+                        <li class="work-experience__list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                        <li class="work-experience__list-item">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="work-experience__list-item">Risus commodo viverra maecenas.</li>
+                        <li class="work-experience__list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                    </ul>
+                </div>
+
+                <div class="work-experience__item">
+                    <h3 class="work-experience__role">Manager <span class="work-experience__company">&mdash; Banderogusak &amp; Co</span></h3>
+                    <p class="work-experience__period">March 2015 - October 2018 | Country</p>
+                    <ul class="work-experience__list">
+                        <li class="work-experience__list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+                        <li class="work-experience__list-item">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="work-experience__list-item">Risus commodo viverra maecenas.</li>
+                        <li class="work-experience__list-item">Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+
+                <div class="work-experience__item">
+                    <h3 class="work-experience__role">Manager <span class="work-experience__company">&mdash; BestUA Corp.</span></h3>
+                    <p class="work-experience__period">June 2014 - February 2015 | Country</p>
+                    <ul class="work-experience__list">
+                        <li class="work-experience__list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+                        <li class="work-experience__list-item">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="work-experience__list-item">Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="code-example" id="code-example">
+                <h2 class="code-example__title">Code Example</h2>
+                <pre class="code-example__code"><code>function getResYear({ m, y }, shiftN) {
+  let newMonth = m + shiftN;
+  let newYear = y + Math.floor((newMonth - 1) / 12);
+  return newYear;
+}
+
+let year = getResYear({ m: 5, y: 2024 }, 13);
+document.write(`Year = ${year}`);</code></pre>
+            </div>
+
+            <div class="education" id="education">
+                <h2 class="education__title">Education</h2>
+                <p class="education__item">
+                    National Technical University of Ukraine «Igor Sikorsky Kyiv Polytechnic Institute» &mdash;
+                    Faculty of Linguistics (Department of Theory, Practice and Translation of the French Language)
+                </p>
+                <p class="education__item">
+                    Education platform "Freelancer Life Style" &mdash; Front End Course (HTML/CSS/JS), JavaScript Course
+                </p>
+            </div>
+        </main>
+
+        <aside class="sidebar">
+            <div class="my-contact" id="contacts">
+                <h2 class="my-contact__title">Contact Info</h2>
+                <ul class="my-contact__list">
+                    <li class="my-contact__item">Phone: +380633480119</li>
+                    <li class="my-contact__item">Email: valerevapet@gmail.com</li>
+                    <li class="my-contact__item">GitHub: <a href="https://github.com/Valeriameuf" target="_blank" rel="noopener">Valeriameuf</a></li>
+                </ul>
+            </div>
+
+            <div class="my-skills" id="skills">
+                <h2 class="my-skills__title">Skills</h2>
+                <ul class="my-skills__list">
+                    <li class="my-skills__item">HTML</li>
+                    <li class="my-skills__item">CSS (SASS/SCSS, BEM)</li>
+                    <li class="my-skills__item">JavaScript</li>
+                    <li class="my-skills__item">Git/GitHub</li>
+                    <li class="my-skills__item">Figma</li>
+                </ul>
+            </div>
+
+            <div class="my-strengths" id="strengths">
+                <h2 class="my-strengths__title">Soft Skills</h2>
+                <ul class="my-strengths__list">
+                    <li class="my-strengths__item">Strong communication skills</li>
+                    <li class="my-strengths__item">Creativity</li>
+                    <li class="my-strengths__item">Ability to work under pressure</li>
+                    <li class="my-strengths__item">Willingness to learn</li>
+                </ul>
+            </div>
+
+            <div class="languages" id="languages">
+                <h2 class="languages__title">Languages</h2>
+                <ul class="languages__list">
+                    <li class="languages__item">Ukrainian &mdash; native speaker</li>
+                    <li class="languages__item">Russian &mdash; native speaker</li>
+                    <li class="languages__item">French &mdash; B2</li>
+                    <li class="languages__item">English &mdash; A2</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__wave" aria-hidden="true">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,60 C240,0 480,100 720,60 C960,20 1200,100 1440,60 L1440,0 L0,0 Z"></path>
+            </svg>
+        </div>
+
+        <div class="footer__content">
+            <a class="footer__github" href="https://github.com/Valeriameuf" target="_blank" rel="noopener">GitHub: Valeriameuf</a>
+            <span class="footer__year">&copy; <span id="footer-year">2024</span></span>
+            <a class="footer__course" href="https://rs.school/" target="_blank" rel="noopener">
+                <img class="footer__course-logo" src="images/rss.svg" alt="RS School logo">
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
